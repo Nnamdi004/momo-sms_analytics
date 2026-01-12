@@ -16,7 +16,7 @@ The system is designed using enterprise software principles, including modular E
 ## High-Level System Architecture
  **Architecture Diagram:**  
  *Insert Draw.io or Miro link here*  
- Diagram image stored at: `docs/architecture.png`
+ Diagram image stored at: https://drive.google.com/file/d/1kflix6YqBLiINOkoiiksbbcwN1hAxaxd/view?usp=sharing
 
 ### Architecture Overview
 1. XML SMS data is ingested via an ETL pipeline
