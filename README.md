@@ -1,4 +1,4 @@
-# 📊 MoMo SMS Analytics Dashboard
+# MoMo SMS Analytics Dashboard
 
 ## Team Name
 **InnovateX**
@@ -14,9 +14,9 @@ The system is designed using enterprise software principles, including modular E
 - Michelle Anyika
 
 ## High-Level System Architecture
-📐 **Architecture Diagram:**  
-👉 *Insert Draw.io or Miro link here*  
-👉 Diagram image stored at: `docs/architecture.png`
+ **Architecture Diagram:**  
+ *Insert Draw.io or Miro link here*  
+ Diagram image stored at: `docs/architecture.png`
 
 ### Architecture Overview
 1. XML SMS data is ingested via an ETL pipeline
@@ -27,8 +27,8 @@ The system is designed using enterprise software principles, including modular E
 6. Frontend dashboard visualizes insights using charts and tables
 
 ## Scrum Board
-🗂 **Project Management Board:**  
-👉 *Insert GitHub Projects / Trello / Jira link here*
+ **Project Management Board:**  
+ *Insert GitHub Projects / Trello / Jira link here*
 
 ### Initial Sprint Focus
 - Repository setup
