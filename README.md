@@ -28,7 +28,7 @@ The system is designed using enterprise software principles, including modular E
 
 ## Scrum Board
  **Project Management Board:**  
- *Insert GitHub Projects / Trello / Jira link here*
+ https://trello.com/b/G8mZY8KH/momo-sms-analytics-sprint-1
 
 ### Initial Sprint Focus
 - Repository setup
