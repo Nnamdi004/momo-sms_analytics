@@ -21,7 +21,7 @@ The system is designed using enterprise software principles, including modular E
 1. XML SMS data is ingested via an ETL pipeline
 2. Data is parsed, cleaned, and normalized
 3. Transactions are categorized (e.g., Incoming, Outgoing, Airtime, Fees)
-4. Clean data is stored in SQLite
+4. Clean data is stored in Mysql
 5. Aggregated analytics are exported as JSON
 6. Frontend dashboard visualizes insights using charts and tables
 
@@ -35,11 +35,11 @@ The system is designed using enterprise software principles, including modular E
 - Task breakdown and role assignment
 
 ## Tech Stack
-- Backend: Python, ElementTree/lxml, SQLite
+- Backend: Python, ElementTree/lxml, Mysql
 - Frontend: HTML, CSS, JavaScript
-- Optional API: FastAPI
+- Optional API: RESTAPI
 - Version Control: Git & GitHub
-- Agile: Scrum board (GitHub Projects)
+- Agile: Scrum board (Trello)
 
 ## How to Run (Coming Soon)
 ETL and dashboard instructions will be added in Week 2.
