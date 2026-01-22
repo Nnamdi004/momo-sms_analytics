@@ -1,0 +1,14 @@
+{
+  "user_id": 1,
+  "name": "Chibuzor Nnamdi",
+  "phone_number": "0780056760",
+  "user_type": "customer"
+}
+
+
+{
+  "user_id": 2,
+  "name": "Michelle Anyika",
+  "phone_number": "0785688986", 
+  "user_type": "customer"
+}
