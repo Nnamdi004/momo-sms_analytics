@@ -103,3 +103,4 @@ INSERT INTO system_logs (transaction_id, log_message, log_status) VALUES
 (3, 'Waiting for confirmation', 'PENDING'),
 (4, 'Insufficient balance', 'ERROR'),
 (5, 'Bill payment successful', 'OK');
+
