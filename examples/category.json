@@ -1,18 +1,29 @@
-[
-  {
-    "category_id": 1,
-    "category_name": "Money Transfer"
-  },
-  {
-    "category_id": 2,
-    "category_name": "Bill Payment"
-  },
-  {
-    "category_id": 3,
-    "category_name": "Merchant Payment"
-  },
-  {
-    "category_id": 4,
-    "category_name": "Airtime Purchase"
-  }
-]
+{
+  "transaction_categories": [
+    {
+      "id": 1,
+      "category_name": "Transfer",
+      "description": "Money transfer between users"
+    },
+    {
+      "id": 2,
+      "category_name": "Payment",
+      "description": "Payment for services"
+    },
+    {
+      "id": 3,
+      "category_name": "Withdrawal",
+      "description": "Cash withdrawal"
+    },
+    {
+      "id": 4,
+      "category_name": "Airtime",
+      "description": "Buy airtime"
+    },
+    {
+      "id": 5,
+      "category_name": "Bill Payment",
+      "description": "Utility bill payment"
+    }
+  ]
+}
