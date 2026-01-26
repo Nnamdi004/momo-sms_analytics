@@ -1,50 +1,34 @@
-[
-  {
-    "user_id": 1,
-    "name": "Chibuzor Nnamdi",
-    "phone_number": "0780056760",
-    "user_type": "customer"
-  },
-  {
-    "user_id": 2,
-    "name": "Michelle Anyika",
-    "phone_number": "0785688986",
-    "user_type": "customer"
-  },
-  {
-    "user_id": 3,
-    "name": "Atigbi Ayomikun",
-    "phone_number": "0795699249",
-    "user_type": "customer"
-  },
-  {
-    "user_id": 4,
-    "name": "Jean Pierre Habimana",
-    "phone_number": "0788123456",
-    "user_type": "customer"
-  },
-  {
-    "user_id": 5,
-    "name": "Aline Mukamana",
-    "phone_number": "0790456789",
-    "user_type": "customer"
-  },
-  {
-    "user_id": 6,
-    "name": "Eric Uwimana",
-    "phone_number": "0723344556",
-    "user_type": "agent"
-  },
-  {
-    "user_id": 7,
-    "name": "Ibrahim Sadiq",
-    "phone_number": "08123456789",
-    "user_type": "merchant"
-  },
-  {
-    "user_id": 8,
-    "name": "Blessing Okafor",
-    "phone_number": "08099887766",
-    "user_type": "customer"
-  }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Alice Mukamana",
+      "phone_number": "0788000001",
+      "user_type": "Sender"
+    },
+    {
+      "id": 2,
+      "full_name": "Jean Paul",
+      "phone_number": "0788000002",
+      "user_type": "Receiver"
+    },
+    {
+      "id": 3,
+      "full_name": "Grace Uwimana",
+      "phone_number": "0788000003",
+      "user_type": "Sender"
+    },
+    {
+      "id": 4,
+      "full_name": "Eric Niyonsenga",
+      "phone_number": "0788000004",
+      "user_type": "Receiver"
+    },
+    {
+      "id": 5,
+      "full_name": "David Habimana",
+      "phone_number": "0788000005",
+      "user_type": "Sender"
+    }
+  ]
+}
