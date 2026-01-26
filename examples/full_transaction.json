@@ -1,74 +1,29 @@
-[
-  {
-    "transaction_id": 101,
-    "amount": 5000,
-    "timestamp": "2026-01-20T10:30:00",
-
-    "sender": {
+{
+  "user_transactions": [
+    {
       "user_id": 1,
-      "name": "Chibuzor Nnamdi",
-      "phone_number": "0780056760",
-      "user_type": "customer"
+      "transaction_id": 1,
+      "role": "Sender"
     },
-
-    "receiver": {
-      "user_id": 4,
-      "name": "Jean Pierre Habimana",
-      "phone_number": "0788123456",
-      "user_type": "customer"
-    },
-
-    "category": {
-      "category_id": 1,
-      "category_name": "Money Transfer"
-    }
-  },
-  {
-    "transaction_id": 102,
-    "amount": 12000,
-    "timestamp": "2026-01-21T14:10:00",
-
-    "sender": {
-      "user_id": 5,
-      "name": "Aline Mukamana",
-      "phone_number": "0790456789",
-      "user_type": "customer"
-    },
-
-    "receiver": {
+    {
       "user_id": 2,
-      "name": "Michelle Anyika",
-      "phone_number": "0785688986",
-      "user_type": "customer"
+      "transaction_id": 1,
+      "role": "Receiver"
     },
-
-    "category": {
-      "category_id": 2,
-      "category_name": "Bill Payment"
+    {
+      "user_id": 3,
+      "transaction_id": 2,
+      "role": "Sender"
+    },
+    {
+      "user_id": 4,
+      "transaction_id": 2,
+      "role": "Receiver"
+    },
+    {
+      "user_id": 5,
+      "transaction_id": 3,
+      "role": "Sender"
     }
-  },
-  {
-    "transaction_id": 103,
-    "amount": 3000,
-    "timestamp": "2026-01-22T09:45:00",
-
-    "sender": {
-      "user_id": 7,
-      "name": "Ibrahim Sadiq",
-      "phone_number": "08123456789",
-      "user_type": "merchant"
-    },
-
-    "receiver": {
-      "user_id": 8,
-      "name": "Blessing Okafor",
-      "phone_number": "08099887766",
-      "user_type": "customer"
-    },
-
-    "category": {
-      "category_id": 3,
-      "category_name": "Merchant Payment"
-    }
-  }
-]
+  ]
+}
