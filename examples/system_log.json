@@ -1,6 +1,26 @@
-{
-  "log_id": 1,
-  "action": "Transaction processed",
-  "user_id": 1,
-  "timestamp": "2026-01-20T10:31:00"
-}
+[
+  {
+    "log_id": 1,
+    "action": "Transaction processed",
+    "user_id": 1,
+    "timestamp": "2026-01-20T10:31:00"
+  },
+  {
+    "log_id": 2,
+    "action": "Bill payment completed",
+    "user_id": 5,
+    "timestamp": "2026-01-21T14:12:00"
+  },
+  {
+    "log_id": 3,
+    "action": "Merchant payment successful",
+    "user_id": 7,
+    "timestamp": "2026-01-22T09:47:00"
+  },
+  {
+    "log_id": 4,
+    "action": "Airtime purchase successful",
+    "user_id": 3,
+    "timestamp": "2026-01-23T16:21:00"
+  }
+]
