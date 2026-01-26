@@ -2,6 +2,9 @@
 -- TEST DATA FOR CRUD DELETE OPERATION
 -- ============================
 
+-- CRUD Tests
+USE momo_sms_db;
+
 -- Insert test users (if not already present)
 INSERT INTO users (full_name, phone_number, user_type)
 VALUES
