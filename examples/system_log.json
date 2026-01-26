@@ -1,26 +1,34 @@
-[
-  {
-    "log_id": 1,
-    "action": "Transaction processed",
-    "user_id": 1,
-    "timestamp": "2026-01-20T10:31:00"
-  },
-  {
-    "log_id": 2,
-    "action": "Bill payment completed",
-    "user_id": 5,
-    "timestamp": "2026-01-21T14:12:00"
-  },
-  {
-    "log_id": 3,
-    "action": "Merchant payment successful",
-    "user_id": 7,
-    "timestamp": "2026-01-22T09:47:00"
-  },
-  {
-    "log_id": 4,
-    "action": "Airtime purchase successful",
-    "user_id": 3,
-    "timestamp": "2026-01-23T16:21:00"
-  }
-]
+{
+  "system_logs": [
+    {
+      "id": 1,
+      "transaction_id": 1,
+      "log_message": "Transaction processed successfully",
+      "log_status": "OK"
+    },
+    {
+      "id": 2,
+      "transaction_id": 2,
+      "log_message": "Payment completed",
+      "log_status": "OK"
+    },
+    {
+      "id": 3,
+      "transaction_id": 3,
+      "log_message": "Waiting for confirmation",
+      "log_status": "PENDING"
+    },
+    {
+      "id": 4,
+      "transaction_id": 4,
+      "log_message": "Insufficient balance",
+      "log_status": "ERROR"
+    },
+    {
+      "id": 5,
+      "transaction_id": 5,
+      "log_message": "Bill payment successful",
+      "log_status": "OK"
+    }
+  ]
+}
