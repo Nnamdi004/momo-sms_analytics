@@ -1,34 +1,49 @@
-[
-  {
-    "transaction_id": 101,
-    "sender_id": 1,
-    "receiver_id": 4,
-    "amount": 5000,
-    "timestamp": "2026-01-20T10:30:00",
-    "category_id": 1
-  },
-  {
-    "transaction_id": 102,
-    "sender_id": 5,
-    "receiver_id": 2,
-    "amount": 12000,
-    "timestamp": "2026-01-21T14:10:00",
-    "category_id": 2
-  },
-  {
-    "transaction_id": 103,
-    "sender_id": 7,
-    "receiver_id": 8,
-    "amount": 3000,
-    "timestamp": "2026-01-22T09:45:00",
-    "category_id": 3
-  },
-  {
-    "transaction_id": 104,
-    "sender_id": 3,
-    "receiver_id": 6,
-    "amount": 1500,
-    "timestamp": "2026-01-23T16:20:00",
-    "category_id": 4
-  }
-]
+{
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 5000,
+      "transaction_date": "2026-01-26T12:00:00Z",
+      "status": "Success",
+      "sender_id": 1,
+      "receiver_id": 2,
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "amount": 12000,
+      "transaction_date": "2026-01-26T12:00:00Z",
+      "status": "Success",
+      "sender_id": 3,
+      "receiver_id": 4,
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "amount": 3000,
+      "transaction_date": "2026-01-26T12:00:00Z",
+      "status": "Pending",
+      "sender_id": 5,
+      "receiver_id": 2,
+      "category_id": 4
+    },
+    {
+      "id": 4,
+      "amount": 15000,
+      "transaction_date": "2026-01-26T12:00:00Z",
+      "status": "Failed",
+      "sender_id": 1,
+      "receiver_id": 4,
+      "category_id": 3
+    },
+    {
+      "id": 5,
+      "amount": 8000,
+      "transaction_date": "2026-01-26T12:00:00Z",
+      "status": "Success",
+      "sender_id": 3,
+      "receiver_id": 2,
+      "category_id": 5
+    }
+  ]
+}
