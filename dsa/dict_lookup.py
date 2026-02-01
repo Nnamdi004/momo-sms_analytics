@@ -1,5 +1,3 @@
-# dsa/dict_lookup.py
-
 def build_transaction_dict(transactions):
     return {tx["id"]: tx for tx in transactions}
 
