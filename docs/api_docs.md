@@ -20,7 +20,7 @@ Retrieve all SMS transaction records.
 GET /transactions
 Authorization: Basic <base64(username:password)>
 
-### Response Example (200 OK)
+Response Example (200 OK)
 [
   {
     "id": 1,
@@ -32,5 +32,7 @@ Authorization: Basic <base64(username:password)>
   }
 ]
 
-### Error Codes
+Error Codes
 401 Unauthorized – Invalid or missing credentials
+
+
