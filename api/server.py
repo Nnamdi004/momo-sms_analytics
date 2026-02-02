@@ -96,6 +96,6 @@ class MoMoAPI(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = HTTPServer(("localhost", 8000), MoMoAPI)
+    server = HTTPServer(("0.0.0.0", 8000), MoMoAPI)
     print("Server running on http://localhost:8000")
     server.serve_forever()
