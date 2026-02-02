@@ -268,6 +268,13 @@ ETL pipeline and dashboard execution steps will be added in subsequent project p
 
 ---
 
+## RESTAPI Setup
+1. Clone repo
+2. Run server:
+   python3 api/server.py
+3. Test using curl or Postman
+
+
 ## Conclusion
 
 This project establishes a robust foundation for analyzing Mobile Money SMS data. By transforming raw XML messages into a structured relational database, the system enables efficient analytics, visualization, and future API-driven access.
